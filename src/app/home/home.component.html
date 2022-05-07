@@ -1,0 +1,27 @@
+<div class="navbar">
+    <div class="navbar-brand">
+        <img src="../../assets/icon.png" alt="Farming Inventory Management" width="30px">
+    </div>
+
+    <div class="navbar-group">
+        <div class="navbar-link">
+            <a routerLink="/equipments" >Equipments</a>
+        </div>
+        <div class="navbar-link">
+            <a routerLink="/inventory" >Inventory</a>
+        </div>
+        <div class="navbar-link">
+            <a routerLink="/request" >Request</a>
+        </div>
+    </div>
+    
+    <div class="navbar-group">
+        <div class="navbar-link">
+            <mat-icon aria-hidden="false" aria-label="Example home icon">settings</mat-icon>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <router-outlet></router-outlet>
+</div>
